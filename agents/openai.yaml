@@ -1,0 +1,13 @@
+interface:
+  display_name: DeepSeek 视觉协作
+  short_description: 让 Pro 调用 Flash 观察图片、保留推理输出并按证据继续复查
+  default_prompt: 使用 $deepseek-flash-vision 分析这张图片，调用 Flash 获取视觉证据与可用推理内容，并按需要继续复查。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
